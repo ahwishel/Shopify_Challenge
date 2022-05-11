@@ -1,0 +1,138 @@
+/* --------------- GENERAL TAG STYLING --------------- */
+body{
+  margin: 0;
+  background-color: #119DA4;
+  overflow-x: hidden;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+/* --------------- PARENT CLASS STYLING --------------- */
+
+.App {
+  text-align: center;
+}
+
+/* --------------- NAV BAR STYLING --------------- */
+
+nav ul{
+  margin: 2em 0 2em 0;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline;
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0.5em;
+  transition: font-size 0.25s ease-in-out;
+}
+
+nav ul li a:hover{
+  font-size: large;
+}
+
+/* ---------------  UPPER HALF OF PAGE (or top 1/3 of page) --------------- */
+
+.upper_third_section{
+  background-image: url('./green_bgd.jpg');
+  background-size: cover;
+}
+
+.header_statement{
+  margin: 0 auto;
+  font-size: 18pt;
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.nav_logo{
+  width: 10em;
+  margin: 0 auto;
+}
+
+/* --------------- FORM STYLING --------------- */
+
+.form_inner_container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.prompt_box{
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 0.5em;
+  height: 10em;
+  font-size: large;
+}
+
+.submit_btn{
+  padding: 1em 5em;
+  font-weight: bold;
+  border: none;
+  background-color: #2a2a2a;
+  margin: 2em auto;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.submit_btn:hover{
+  background-color: #040404;
+}
+
+.engine{
+  width: 5em;
+}
+
+/* --------------- MIDDLE PAGE STYLING --------------- */
+
+.responses_placeholder{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.responses_container{
+  position: relative;
+  overflow-y: auto;
+  height: 30em;
+  margin: 0 auto 0 auto;
+  padding: 2em;
+  border-radius: 5px;
+  background-color: #D7D9CE;
+}
+
+/* --------------- BOTTOM OF PAGE STYLING --------------- */
+
+.footer{
+  background-color: #0a292e;
+  padding: 5em;
+}
+
+.footer span{
+  color: white;
+  font-weight: bold;
+  margin: 1em;
+  cursor: pointer;
+  transition: font-size 0.25s ease-in-out;
+}
+
+.footer span:hover{
+  font-size: larger;
+}
